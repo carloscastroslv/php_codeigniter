@@ -8,4 +8,9 @@ class Produto extends BaseController
     {
         return view('Produto');
     }
+
+    public function show(): string
+    {
+        return view('Relatorio');
+    }
 }
