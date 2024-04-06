@@ -6,11 +6,19 @@ class Produto extends BaseController
 {
     public function index(): string
     {
-        return view('Produto');
+        return view('index');
     }
 
     public function show(): string
     {
-        return view('Relatorio');
+        return view('show');
+    }
+    public function edit(): string
+    {
+        return view('edit');
+    }
+    public function delete(): string
+    {
+        return view('delete');
     }
 }
