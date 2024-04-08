@@ -5,7 +5,6 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Home::index');
+$routes -> setAutoRoute(true);
 
-$routes->get('/produtos', 'Produto::index');
-$routes->get('/relatorio', 'Produto::show');
+$routes->get('/', 'Home::index');
